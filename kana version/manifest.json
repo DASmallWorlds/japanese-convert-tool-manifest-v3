@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Japanese Character Converter Kana",
   "version": "1.0",
-  "description": "Converts Japanese characters.",
+  "description": "Converts Japanese characters. Kana version. Use main version for full fine character conversion.",
   "permissions": [
     "storage"
   ],

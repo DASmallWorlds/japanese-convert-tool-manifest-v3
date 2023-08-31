@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Japanese Character Converter",
+  "name": "Japanese Character Converter Main",
   "version": "1.0",
-  "description": "Converts Japanese characters.",
+  "description": "Converts Japanese characters. Main version. Use kana version to have the option to only convert kana.",
   "permissions": [
     "storage"
   ],
