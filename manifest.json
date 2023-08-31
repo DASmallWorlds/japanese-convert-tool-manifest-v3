@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Japanese Character Converter",
+  "version": "1.0",
+  "description": "Converts Japanese characters.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "main.html",
+    "author": "DASmallWorlds / justyy<dr.zhihua.lai@gmail.com>",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/pinyin.js",
+      "js/dialect.js",
+      "js/convert.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+ 
+
+
+}
+
