@@ -1,0 +1,12 @@
+{
+  "会": "會",
+  "车": "車",
+  "电": "電",
+  "马": "馬",
+  "鱼": "魚",
+  "鸟": "鳥",
+  "新": "新",  // Additional pairs can be added here
+  "旧": "舊",
+  "a": "b",
+  // Add more pairs as needed
+}
